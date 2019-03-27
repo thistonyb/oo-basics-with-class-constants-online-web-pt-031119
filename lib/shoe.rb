@@ -8,8 +8,8 @@ class Shoe
     @brand = brand
     BRANDS << brand
     BRANDS.each {|existing_brand| !existing_brand? BRANDS << brand :}
-      
-        
+
+
   end
 
   def cobble
@@ -19,6 +19,6 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-  
+
   end
 end
