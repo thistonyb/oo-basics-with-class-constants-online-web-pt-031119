@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     #BRANDS << brand
-    BRANDS.each {|existing_brand| !existing_brand? BRANDS << brand :}
+    BRANDS.each {|existing_brand| !existing_brand? BRANDS << brand : nil}
   end
 
   def cobble
