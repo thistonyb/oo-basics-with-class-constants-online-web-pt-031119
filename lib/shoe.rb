@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     #BRANDS << brand
-    BRANDS.each {|existing_brand| !existing_brand? BRANDS << brand : nil}
+    BRANDS.each {|existing_brand| !existing_brand? BRANDS << brand : puts "Not unique"}
   end
 
   def cobble
