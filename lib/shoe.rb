@@ -9,7 +9,6 @@ class Shoe
     BRANDS << brand
     BRANDS.each {|existing_brand| !existing_brand? BRANDS << brand :}
 
-
   end
 
   def cobble
