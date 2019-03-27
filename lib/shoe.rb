@@ -10,6 +10,7 @@ class Shoe
     #BRANDS << brand
     if BRANDS.each {|existing_brand| brand != existing_brand}
       BRANDS << brand
+      binding.pry
     end
   end
 
